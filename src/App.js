@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import Button from "./modules/Button";
+import P from "./modules/P";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button> Ini Button </Button>
+        <P> Lorem Lorem </P>
       </div>
     );
   }
